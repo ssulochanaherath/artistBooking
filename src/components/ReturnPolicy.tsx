@@ -97,7 +97,7 @@ const ReturnPolicy: React.FC = () => {
                         <a href="#s3">3. Cancellations by You</a>
                         <a href="#s4">4. Cancellations by the Artist</a>
                         <a href="#s5">5. Refund Eligibility</a>
-                        <a href="#s6">6. Non-Refundable Fees</a>
+                        <a href="#s6">6. Fee Structure &amp; Limits</a>
                         <a href="#s7">7. Refund Process &amp; Timelines</a>
                         <a href="#s8">8. Disputes</a>
                         <a href="#s9">9. Changes</a>
@@ -124,11 +124,12 @@ const ReturnPolicy: React.FC = () => {
                             </div>
                             <p>
                                 Performa is a booking platform, not a retailer of physical
-                                goods. Because we facilitate live event bookings between
-                                clients and artists, this policy explains how cancellations,
-                                returns, and refunds are handled for payments made through
-                                Performa, rather than describing the return of a physical
-                                product.
+                                goods. Performa helps clients discover and confirm bookings
+                                with independent artists. This policy explains how the
+                                booking/service fee you pay to Performa is handled in the
+                                case of a cancellation — it does not cover any performance
+                                fee you agree directly with an artist, since Performa does
+                                not process or hold that amount.
                             </p>
                             <p>
                                 By making a booking payment on Performa, you agree to the
@@ -147,7 +148,7 @@ const ReturnPolicy: React.FC = () => {
                             </div>
                             <p>
                                 To help you understand what a refund covers, here is how a
-                                typical booking and payment flows on Performa:
+                                typical booking works on Performa:
                             </p>
                             <ul>
                                 <li>
@@ -156,24 +157,25 @@ const ReturnPolicy: React.FC = () => {
                                 </li>
                                 <li>
                                     Once the artist accepts the request, the client is
-                                    notified and asked to make payment to lock in the
-                                    booking.
+                                    notified and asked to pay Performa&apos;s booking/service
+                                    fee to confirm the booking.
                                 </li>
                                 <li>
-                                    The client pays an <strong>advance amount</strong> plus a{" "}
-                                    <strong>platform fee</strong> securely through our
-                                    payment gateway. This payment is received into
-                                    Performa&apos;s company bank account, not directly by the
-                                    artist.
+                                    The client pays this booking/service fee securely
+                                    through our payment gateway. This payment is
+                                    Performa&apos;s fee for the use of the platform and is
+                                    received into Performa&apos;s company bank account.
                                 </li>
                                 <li>
-                                    Performa verifies the booking details and then transfers
-                                    the advance amount to the artist via bank transfer.
+                                    The artist&apos;s performance fee is a separate amount,
+                                    agreed directly between the client and the artist.
+                                    Performa does not collect, hold, or transfer this amount
+                                    on the artist&apos;s behalf.
                                 </li>
                                 <li>
-                                    Any remaining balance for the booking is settled directly
-                                    between the client and the artist at or around the event,
-                                    unless otherwise agreed on the platform.
+                                    Any arrangements for paying the artist&apos;s performance
+                                    fee — timing, method, and amount — are made directly
+                                    between the client and the artist, outside of Performa.
                                 </li>
                             </ul>
                         </div>
@@ -184,39 +186,39 @@ const ReturnPolicy: React.FC = () => {
                                 <h2>Cancellations by You (the Client)</h2>
                             </div>
                             <p>
-                                If you need to cancel a booking after payment has been made,
-                                your refund eligibility depends on how far in advance you
-                                cancel relative to the event date:
+                                If you need to cancel a booking after paying the
+                                booking/service fee, your refund eligibility for that fee
+                                depends on how far in advance you cancel relative to the
+                                event date:
                             </p>
                             <table>
                                 <thead>
                                 <tr>
                                     <th>Cancellation Window</th>
-                                    <th>Refund of Advance</th>
+                                    <th>Refund of Booking/Service Fee</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>More than 7 days before the event</td>
-                                    <td>Full refund of the advance amount</td>
+                                    <td>Full refund of the booking/service fee</td>
                                 </tr>
                                 <tr>
                                     <td>Between 7 and 3 days before the event</td>
-                                    <td>Partial refund 75% of the advance amount</td>
+                                    <td>Partial refund — 75% of the booking/service fee</td>
                                 </tr>
                                 <tr>
                                     <td>Less than 3 days before the event</td>
-                                    <td>Advance amount is non-refundable</td>
+                                    <td>Booking/service fee is non-refundable</td>
                                 </tr>
                                 </tbody>
                             </table>
-                            <div className="notice">
-                                <p>
-                                    <strong>Platform fees are non-refundable</strong> in all
-                                    client-initiated cancellations, as this fee covers the
-                                    cost of processing and securing your booking.
-                                </p>
-                            </div>
+                            <p>
+                                This policy applies only to the booking/service fee paid to
+                                Performa. Any arrangement you have made directly with the
+                                artist for their performance fee is between you and the
+                                artist, and is not covered by Performa.
+                            </p>
                         </div>
 
                         <div className="sec" id="s4">
@@ -227,8 +229,8 @@ const ReturnPolicy: React.FC = () => {
                             <p>
                                 If an artist cancels an accepted booking, or fails to show up
                                 or perform as agreed, you are entitled to a{" "}
-                                <strong>full refund</strong> of both the advance amount and
-                                the platform fee, provided the cancellation or no-show is
+                                <strong>full refund of the booking/service fee</strong> you
+                                paid to Performa, provided the cancellation or no-show is
                                 confirmed by Performa.
                             </p>
                             <ul>
@@ -241,10 +243,15 @@ const ReturnPolicy: React.FC = () => {
                                     history to confirm what happened.
                                 </li>
                                 <li>
-                                    Once confirmed, the refund will be processed back to your
-                                    original payment method.
+                                    Once confirmed, the refund of the booking/service fee
+                                    will be processed back to your original payment method.
                                 </li>
                             </ul>
+                            <p>
+                                Any performance fee you paid directly to the artist is a
+                                separate matter between you and the artist and is not
+                                refunded by Performa.
+                            </p>
                         </div>
 
                         <div className="sec" id="s5">
@@ -252,7 +259,7 @@ const ReturnPolicy: React.FC = () => {
                                 <div className="sec-num">5</div>
                                 <h2>Refund Eligibility</h2>
                             </div>
-                            <p>You may be eligible for a refund where:</p>
+                            <p>You may be eligible for a refund of the booking/service fee where:</p>
                             <ul>
                                 <li>
                                     You cancel within an eligible cancellation window as set
@@ -267,12 +274,12 @@ const ReturnPolicy: React.FC = () => {
                                     technical error on the platform or payment gateway.
                                 </li>
                                 <li>
-                                    The service materially differs from what was agreed in
-                                    the accepted booking, as determined by Performa after
+                                    The booking materially differs from what was agreed when
+                                    the artist accepted it, as determined by Performa after
                                     review.
                                 </li>
                             </ul>
-                            <p>Refunds are generally not available where:</p>
+                            <p>Refunds of the booking/service fee are generally not available where:</p>
                             <ul>
                                 <li>
                                     The event proceeds as booked and performed by the artist.
@@ -291,19 +298,22 @@ const ReturnPolicy: React.FC = () => {
                         <div className="sec" id="s6">
                             <div className="sec-header">
                                 <div className="sec-num">6</div>
-                                <h2>Non-Refundable Fees</h2>
+                                <h2>Fee Structure &amp; Refund Limits</h2>
                             </div>
                             <p>
-                                The <strong>platform fee</strong> charged at the time of
-                                booking is used to operate and maintain Performa, and is
-                                non-refundable except where the booking was not fulfilled due
-                                to artist cancellation, no-show, or a confirmed platform
-                                error, as described in <strong>Cancellations by the Artist / Non-Fulfillment and Refund Eligibility</strong>.
+                                The <strong>booking/service fee</strong> charged at the time
+                                of booking is used to operate and maintain Performa. It is
+                                refundable according to the cancellation windows described
+                                in <strong>Cancellations by You (the Client)</strong>, and is
+                                fully refundable where the booking is not fulfilled due to
+                                artist cancellation or no-show, as described in{" "}
+                                <strong>Cancellations by the Artist / Non-Fulfillment</strong>.
                             </p>
                             <p>
                                 Any payment gateway charges applied by our payment provider
-                                are outside Performa&apos;s control and may not be recoverable
-                                even where a refund of the advance is approved.
+                                are outside Performa&apos;s control and may not be
+                                recoverable even where a refund of the booking/service fee
+                                is approved.
                             </p>
                         </div>
 
@@ -327,11 +337,6 @@ const ReturnPolicy: React.FC = () => {
                                     additional 5 - 7 business days to reflect, depending on
                                     your bank or card issuer.
                                 </li>
-                                <li>
-                                    Since advances are paid out to artists after
-                                    verification, refunds approved after payout may take
-                                    longer to process while funds are recovered.
-                                </li>
                             </ul>
                         </div>
 
@@ -345,9 +350,9 @@ const ReturnPolicy: React.FC = () => {
                                 fulfilled, either party may raise the issue with Performa.
                                 We will review the booking details, messages, and any
                                 evidence provided by both sides, and make a decision on
-                                refund eligibility in good faith. Our decision on platform
-                                bookings is final for the purposes of processing a refund
-                                through Performa.
+                                booking/service fee refund eligibility in good faith. Our
+                                decision on service fee refunds is final for the purposes of
+                                processing a refund through Performa.
                             </p>
                         </div>
 

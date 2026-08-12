@@ -106,7 +106,7 @@ const TermsAndConditions: React.FC = () => {
                         <a href="#s4">4. For Clients</a>
                         <a href="#s5">5. For Artists</a>
                         <a href="#s6">6. How We Make Money</a>
-                        <a href="#s7">7. Event Confirmation</a>
+                        <a href="#s7">7. Booking Confirmation</a>
                         <a href="#s8">8. Circumvention</a>
                         <a href="#s9">9. Prohibited Conduct</a>
                         <a href="#s10">10. Disputes</a>
@@ -134,12 +134,11 @@ const TermsAndConditions: React.FC = () => {
                                 <h2>About Performa</h2>
                             </div>
                             <p>
-                                Performa is an online marketplace that connects clients with
+                                Performa is an online platform that connects clients with
                                 artists and performers — including singers, DJs, dancers,
                                 videographers, photographers, and others — in Sri Lanka.
-                                Performa facilitates bookings between clients and artists
-                                but is not itself a provider of performance or creative
-                                services.
+                                Performa helps clients discover and book artists, but is not
+                                itself a provider of performance or creative services.
                             </p>
                         </div>
 
@@ -190,13 +189,16 @@ const TermsAndConditions: React.FC = () => {
                             <p>
                                 Clients can browse artist profiles, check availability, and
                                 send booking requests. A booking is confirmed only after the
-                                artist accepts and payment is processed.
+                                artist accepts and the booking/service fee is paid.
                             </p>
                             <h3>Payment</h3>
                             <p>
-                                Clients must pay the agreed booking fee through the
-                                platform. A platform service fee is shown clearly before you
-                                confirm payment. All prices are in Sri Lankan Rupees (LKR).
+                                Clients pay a booking/service fee through the platform to
+                                confirm a booking. This fee is shown clearly before you
+                                confirm payment and is Performa&apos;s charge for use of the
+                                platform. The artist&apos;s performance fee is agreed and
+                                settled directly between the client and the artist, outside
+                                of Performa. All prices are in Sri Lankan Rupees (LKR).
                             </p>
                         </div>
 
@@ -218,17 +220,18 @@ const TermsAndConditions: React.FC = () => {
                                 agreed services on the confirmed date, time, and location.
                                 Repeated cancellations may result in account suspension.
                             </p>
-                            <h3>Artist Payouts</h3>
+                            <h3>Artist Payments</h3>
                             <p>
-                                After a booking is completed, Performa releases the
-                                artist&apos;s payment minus the platform commission within
-                                [insert number] business days after the event date.
+                                Performa does not process, hold, or disburse payment on
+                                behalf of artists. Artists set their own performance fees
+                                and receive payment for their services directly from the
+                                client, arranged independently of the Performa platform.
                             </p>
                             <h3>Artist Responsibilities</h3>
                             <ul>
                                 <li>
                                     Artists are responsible for their own tax obligations from
-                                    income earned through Performa
+                                    income earned through bookings made via Performa
                                 </li>
                                 <li>
                                     Artists must comply with all applicable Sri Lankan laws
@@ -243,22 +246,18 @@ const TermsAndConditions: React.FC = () => {
                                 <h2>How Performa Makes Money</h2>
                             </div>
                             <p>
-                                All fees are transparently disclosed before any payment is
-                                confirmed. No hidden charges.
+                                Performa&apos;s fee is transparently disclosed before any
+                                payment is confirmed. No hidden charges.
                             </p>
-                            <div className="two-box">
+                            <div className="two-box" style={{ gridTemplateColumns: "1fr" }}>
                                 <div className="box">
-                                    <div className="label">Client Service Fee</div>
+                                    <div className="label">Booking / Service Fee</div>
                                     <p>
-                                        A small percentage added on top of the artist&apos;s
-                                        rate at checkout — shown clearly before you pay.
-                                    </p>
-                                </div>
-                                <div className="box">
-                                    <div className="label">Artist Commission</div>
-                                    <p>
-                                        A percentage deducted from the artist&apos;s payout
-                                        after a booking is successfully completed.
+                                        A fee charged to the client at checkout for using the
+                                        platform to discover, request, and confirm a booking —
+                                        shown clearly before you pay. This is the only payment
+                                        Performa collects; artists are paid directly by
+                                        clients for their performance.
                                     </p>
                                 </div>
                             </div>
@@ -267,22 +266,21 @@ const TermsAndConditions: React.FC = () => {
                         <div className="sec" id="s7">
                             <div className="sec-header">
                                 <div className="sec-num">7</div>
-                                <h2>Event Confirmation & Payment Release</h2>
+                                <h2>Booking Confirmation &amp; Complaints</h2>
                             </div>
                             <div className="flow">
-                                <div className="flow-row">
-                                    <div className="flow-step">Event Date Passes</div>
-                                    <div className="flow-arrow">→</div>
-                                    <div className="flow-step">Client Confirms</div>
-                                    <div className="flow-arrow">→</div>
-                                    <div className="flow-step">Payment Released to Artist</div>
-                                </div>
                                 <p>
-                                    If the client does not respond within{" "}
-                                    <strong>72 hours</strong> after the event date, payment is
-                                    automatically released to the artist. If the client raises
-                                    a complaint within 48 hours of the event, Performa will
-                                    investigate and make a final decision.
+                                    Once an artist accepts a request and the client pays the
+                                    booking/service fee, the booking is confirmed. If the
+                                    client believes the artist did not fulfill the agreed
+                                    booking, they may raise a complaint with Performa within
+                                    48 hours of the event date. Performa will investigate and
+                                    make a final decision regarding any refund of the
+                                    booking/service fee, as set out in our{" "}
+                                    <a href="/return-policy" style={{ color: "#e63946" }}>
+                                        Return &amp; Refund Policy
+                                    </a>
+                                    .
                                 </p>
                             </div>
                         </div>
@@ -295,11 +293,10 @@ const TermsAndConditions: React.FC = () => {
                             <div className="warning">
                                 <p>
                                     ⚠️ Both clients and artists agree not to arrange bookings
-                                    or payments outside of the Performa platform for anyone
-                                    first discovered through Performa. This includes direct
-                                    bank transfers, cash payments, or using other platforms.
-                                    Violating this may result in permanent account
-                                    termination.
+                                    outside of the Performa platform, for the purpose of
+                                    avoiding the booking/service fee, for anyone first
+                                    discovered through Performa. Violating this may result in
+                                    permanent account termination.
                                 </p>
                             </div>
                         </div>
@@ -333,7 +330,8 @@ const TermsAndConditions: React.FC = () => {
                                 We encourage both parties to first resolve disputes
                                 directly. If unresolved, contact Performa support and we
                                 will assist in mediating a fair resolution. Performa&apos;s
-                                decision regarding platform-held funds is final.
+                                decision regarding any refund of the booking/service fee is
+                                final.
                             </p>
                         </div>
 
@@ -345,9 +343,10 @@ const TermsAndConditions: React.FC = () => {
                             <p>
                                 To the fullest extent permitted by Sri Lankan law, Performa
                                 is not liable for any indirect or consequential losses from
-                                your use of the platform. It is your responsibility to
-                                review artist profiles, portfolios, and reviews before
-                                booking.
+                                your use of the platform, including from performance fee
+                                arrangements made directly between clients and artists. It
+                                is your responsibility to review artist profiles,
+                                portfolios, and reviews before booking.
                             </p>
                         </div>
 

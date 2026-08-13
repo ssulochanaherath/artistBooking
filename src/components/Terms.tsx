@@ -226,7 +226,7 @@ const TermsAndConditions: React.FC = () => {
                                 <li>Travel or additional expenses</li>
                                 <li>Other performance-related arrangements</li>
                             </ul>
-                            <p>Unless expressly stated otherwise on the platform, the artist's performance fee is paid directly by the client to the artist.</p>
+                            <p>Unless expressly stated otherwise on the platform, the artist's performance fee must be paid directly by the client to the artist at the event.</p>
                             <p>Performa does not collect, hold, or transfer the artist's performance fee.</p>
 
                             <h3>4.3 Performa Booking/Service Fee</h3>
@@ -253,9 +253,9 @@ const TermsAndConditions: React.FC = () => {
 
                             <h3>5.3 Artist Payments</h3>
                             <p>Artists determine their own performance fees unless otherwise agreed with the client.</p>
-                            <p>The artist's performance fee is a separate transaction between the client and the artist.</p>
+                            <p>The artist's performance fee is a separate transaction that the client must pay directly to the artist at the event.</p>
                             <p>Performa does not collect, hold, or disburse the artist's performance fee through the Performa payment system.</p>
-                            <p>Artists are responsible for providing clients with accurate payment instructions where payment is to be made directly to the artist.</p>
+                            <p>Artists are responsible for providing clients with accurate payment instructions for this payment at the event.</p>
                             <p>Artists are responsible for their own taxes, permits, licences, and other legal obligations relating to income earned from their services.</p>
                         </div>
 

@@ -137,7 +137,7 @@ const ReturnPolicy: React.FC = () => {
                             <p>
                                 The artist's performance fee is separate from Performa's booking/service fee. Unless expressly
                                 stated otherwise, the performance fee is agreed and paid directly between the client and the
-                                artist and is not processed, held, or transferred by Performa.
+                                artist at the event, and is not processed, held, or transferred by Performa.
                             </p>
                             <p>
                                 By making a payment to Performa, you agree to this Return & Refund Policy together with
@@ -160,9 +160,9 @@ const ReturnPolicy: React.FC = () => {
                                 <li>4. The client is then asked to pay Performa's applicable booking/service fee to confirm the booking.</li>
                                 <li>5. The client pays Performa's booking/service fee securely through Performa's payment gateway.</li>
                                 <li>6. This payment is made for Performa's platform, booking, and related services and is received by Performa.</li>
-                                <li>7. The artist's performance fee is a separate amount agreed between the client and the artist.</li>
+                                <li>7. The artist's performance fee is a separate amount that the client must pay directly to the artist at the event.</li>
                                 <li>8. Performa does not collect, process, hold, settle, or transfer the artist's performance fee through its payment system.</li>
-                                <li>9. Any arrangements relating to payment of the artist's performance fee, including the amount, timing, and payment method, are made directly between the client and the artist.</li>
+                                <li>9. Any arrangements relating to payment of the artist's performance fee are made directly between the client and the artist, with the payment typically expected at the event.</li>
                             </ul>
                             <p>This Return & Refund Policy applies only to payments made to Performa.</p>
                         </div>
@@ -222,7 +222,7 @@ const ReturnPolicy: React.FC = () => {
                                 <li>If Performa confirms that the booking was cancelled or not fulfilled by the artist, the approved refund of the Performa booking/service fee will be processed to the original payment method.</li>
                             </ul>
                             <p>
-                                Any performance fee paid directly to the artist is a separate transaction between the client and
+                                Any performance fee paid directly to the artist at the event is a separate transaction between the client and
                                 artist. Performa does not control that payment and cannot guarantee or process a refund of that
                                 payment.
                             </p>

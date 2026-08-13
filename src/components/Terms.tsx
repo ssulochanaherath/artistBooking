@@ -91,9 +91,7 @@ const TermsAndConditions: React.FC = () => {
                         Terms & <span>Conditions</span>
                     </h1>
                     <p>
-                        Effective Date: [Insert Launch Date] &nbsp;·&nbsp; Last Updated:
-                        [Insert Date] &nbsp;·&nbsp; By using Performa, you agree to
-                        these Terms.
+                        Effective Date: August 12, 2026
                     </p>
                 </div>
 
@@ -102,30 +100,39 @@ const TermsAndConditions: React.FC = () => {
                         <p className="sib-title">Contents</p>
                         <a href="#s1">1. About Performa</a>
                         <a href="#s2">2. Eligibility</a>
-                        <a href="#s3">3. Accounts</a>
+                        <a href="#s3">3. Account Registration</a>
                         <a href="#s4">4. For Clients</a>
                         <a href="#s5">5. For Artists</a>
-                        <a href="#s6">6. How We Make Money</a>
+                        <a href="#s6">6. How Performa Makes Money</a>
                         <a href="#s7">7. Booking Confirmation</a>
-                        <a href="#s8">8. Circumvention</a>
-                        <a href="#s9">9. Prohibited Conduct</a>
-                        <a href="#s10">10. Disputes</a>
-                        <a href="#s11">11. Liability</a>
-                        <a href="#s12">12. Governing Law</a>
-                        <a href="#s13">13. Contact</a>
+                        <a href="#s8">8. Cancellations and Refunds</a>
+                        <a href="#s9">9. Complaints and Disputes</a>
+                        <a href="#s10">10. Circumvention</a>
+                        <a href="#s11">11. Prohibited Conduct</a>
+                        <a href="#s12">12. Artist Content and IP</a>
+                        <a href="#s13">13. Availability</a>
+                        <a href="#s14">14. Third-Party Services</a>
+                        <a href="#s15">15. Limitation of Liability</a>
+                        <a href="#s16">16. Indemnity</a>
+                        <a href="#s17">17. Privacy</a>
+                        <a href="#s18">18. Changes</a>
+                        <a href="#s19">19. Governing Law</a>
+                        <a href="#s20">20. Contact Us</a>
                     </div>
 
                     <div className="content">
-                        <div className="meta-bar">
-              <span>
-                Platform: <strong>Performa · performa.lk</strong>
-              </span>
-                            <span>
-                Country: <strong>Sri Lanka</strong>
-              </span>
-                            <span>
-                Currency: <strong>LKR</strong>
-              </span>
+                        <div className="intro" style={{ marginBottom: "40px" }}>
+                          <p style={{ fontSize: "15px", color: "#555", lineHeight: "1.8", marginBottom: "12px" }}>
+                            Welcome to Performa. These Terms & Conditions govern your use of the Performa website,
+                            platform, and related services.
+                          </p>
+                          <p style={{ fontSize: "15px", color: "#555", lineHeight: "1.8", marginBottom: "12px" }}>
+                            By creating an account, using the platform, submitting or accepting a booking request, or
+                            making a payment to Performa, you agree to these Terms & Conditions.
+                          </p>
+                          <p style={{ fontSize: "15px", color: "#555", lineHeight: "1.8", marginBottom: "12px" }}>
+                            If you do not agree with these Terms, please do not use Performa.
+                          </p>
                         </div>
 
                         <div className="sec" id="s1">
@@ -134,11 +141,21 @@ const TermsAndConditions: React.FC = () => {
                                 <h2>About Performa</h2>
                             </div>
                             <p>
-                                Performa is an online platform that connects clients with
-                                artists and performers — including singers, DJs, dancers,
-                                videographers, photographers, and others — in Sri Lanka.
-                                Performa helps clients discover and book artists, but is not
-                                itself a provider of performance or creative services.
+                                Performa is an online platform that connects clients with independent artists and creative
+                                service providers in Sri Lanka, including singers, DJs, dancers, musicians, photographers,
+                                videographers, and other performers or creative professionals.
+                            </p>
+                            <p>
+                                Performa provides an online platform for discovering artists, communicating about bookings,
+                                submitting and accepting booking requests, and facilitating the booking process.
+                            </p>
+                            <p>
+                                Performa is not the employer, agent, partner, or representative of any artist unless expressly
+                                stated otherwise.
+                            </p>
+                            <p>
+                                Artists are independent service providers and are responsible for the services they provide to
+                                clients.
                             </p>
                         </div>
 
@@ -147,17 +164,17 @@ const TermsAndConditions: React.FC = () => {
                                 <div className="sec-num">2</div>
                                 <h2>Eligibility</h2>
                             </div>
+                            <p>To use Performa, you must:</p>
                             <ul>
-                                <li>Be at least 18 years of age</li>
-                                <li>
-                                    Be legally able to enter into a binding contract under Sri
-                                    Lankan law
-                                </li>
-                                <li>
-                                    Provide accurate and truthful information when creating
-                                    your account
-                                </li>
+                                <li>Be at least 18 years old.</li>
+                                <li>Be legally capable of entering into a binding agreement under applicable Sri Lankan law.</li>
+                                <li>Provide accurate and complete information when creating or using an account.</li>
+                                <li>Use the platform only for lawful purposes.</li>
                             </ul>
+                            <p>
+                                If you register on behalf of a business or organization, you confirm that you have authority to act
+                                on its behalf.
+                            </p>
                         </div>
 
                         <div className="sec" id="s3">
@@ -165,79 +182,81 @@ const TermsAndConditions: React.FC = () => {
                                 <div className="sec-num">3</div>
                                 <h2>Account Registration</h2>
                             </div>
+                            <p>Certain Performa features require you to create an account.</p>
+                            <p>You are responsible for:</p>
                             <ul>
-                                <li>You must create an account to make or receive bookings</li>
-                                <li>
-                                    You are responsible for keeping your login credentials
-                                    secure
-                                </li>
-                                <li>
-                                    You are responsible for all activity that occurs under
-                                    your account
-                                </li>
-                                <li>Notify us immediately if you suspect unauthorized access</li>
-                                <li>Performa may suspend accounts that violate these Terms</li>
+                                <li>Providing accurate and current information.</li>
+                                <li>Keeping your login credentials confidential.</li>
+                                <li>All activity carried out through your account.</li>
+                                <li>Notifying Performa promptly if you believe your account has been accessed without authorization.</li>
                             </ul>
+                            <p>
+                                Performa may suspend or terminate accounts that violate these Terms or are suspected of
+                                fraudulent, abusive, or unlawful activity.
+                            </p>
                         </div>
 
                         <div className="sec" id="s4">
                             <div className="sec-header">
                                 <div className="sec-num">4</div>
-                                <h2>For Clients — People Who Book Artists</h2>
+                                <h2>For Clients</h2>
                             </div>
-                            <h3>Booking Process</h3>
-                            <p>
-                                Clients can browse artist profiles, check availability, and
-                                send booking requests. A booking is confirmed only after the
-                                artist accepts and the booking/service fee is paid.
-                            </p>
-                            <h3>Payment</h3>
-                            <p>
-                                Clients pay a booking/service fee through the platform to
-                                confirm a booking. This fee is shown clearly before you
-                                confirm payment and is Performa&apos;s charge for use of the
-                                platform. The artist&apos;s performance fee is agreed and
-                                settled directly between the client and the artist, outside
-                                of Performa. All prices are in Sri Lankan Rupees (LKR).
-                            </p>
+                            <h3>4.1 Finding and Booking Artists</h3>
+                            <p>Clients may browse artist profiles, portfolios, availability information, and other details provided through Performa.</p>
+                            <p>Clients may submit booking requests containing information such as:</p>
+                            <ul>
+                                <li>Event date</li>
+                                <li>Event time</li>
+                                <li>Event location</li>
+                                <li>Type of service or performance</li>
+                                <li>Expected duration</li>
+                                <li>Other relevant event requirements</li>
+                            </ul>
+                            <p>A booking request does not become confirmed until the artist accepts the request and the applicable Performa booking/service fee has been paid.</p>
+                            
+                            <h3>4.2 Artist Performance Fees</h3>
+                            <p>The artist's performance fee is separate from Performa's booking/service fee.</p>
+                            <p>The artist and client are responsible for discussing and agreeing on:</p>
+                            <ul>
+                                <li>Performance fee</li>
+                                <li>Payment amount</li>
+                                <li>Payment schedule</li>
+                                <li>Performance requirements</li>
+                                <li>Event duration</li>
+                                <li>Travel or additional expenses</li>
+                                <li>Other performance-related arrangements</li>
+                            </ul>
+                            <p>Unless expressly stated otherwise on the platform, the artist's performance fee is paid directly by the client to the artist.</p>
+                            <p>Performa does not collect, hold, or transfer the artist's performance fee.</p>
+
+                            <h3>4.3 Performa Booking/Service Fee</h3>
+                            <p>Performa may charge a booking/service fee for providing access to its platform and booking-related services.</p>
+                            <p>The applicable Performa fee will be displayed to the client before payment is completed.</p>
+                            <p>The Performa booking/service fee is separate from the artist's performance fee.</p>
+                            <p>Payments made to Performa through the payment gateway are payments for Performa's own platform and booking services.</p>
                         </div>
 
                         <div className="sec" id="s5">
                             <div className="sec-header">
                                 <div className="sec-num">5</div>
-                                <h2>For Artists — Performers Who Register</h2>
+                                <h2>For Artists</h2>
                             </div>
-                            <h3>Artist Profiles</h3>
-                            <p>
-                                Artists must create an accurate and honest profile. All
-                                portfolio content must be genuine and owned or licensed to
-                                the artist. Performa may review or remove profiles that
-                                violate these Terms.
-                            </p>
-                            <h3>Accepting Bookings</h3>
-                            <p>
-                                By accepting a booking, the artist agrees to deliver the
-                                agreed services on the confirmed date, time, and location.
-                                Repeated cancellations may result in account suspension.
-                            </p>
-                            <h3>Artist Payments</h3>
-                            <p>
-                                Performa does not process, hold, or disburse payment on
-                                behalf of artists. Artists set their own performance fees
-                                and receive payment for their services directly from the
-                                client, arranged independently of the Performa platform.
-                            </p>
-                            <h3>Artist Responsibilities</h3>
-                            <ul>
-                                <li>
-                                    Artists are responsible for their own tax obligations from
-                                    income earned through bookings made via Performa
-                                </li>
-                                <li>
-                                    Artists must comply with all applicable Sri Lankan laws
-                                    including any permits required for performances
-                                </li>
-                            </ul>
+                            <h3>5.1 Artist Profiles</h3>
+                            <p>Artists must provide accurate and truthful information about themselves and their services.</p>
+                            <p>Artists are responsible for ensuring that photographs, videos, music, portfolios, descriptions, logos, and other content uploaded to Performa are owned by them or used with appropriate permission.</p>
+                            <p>Performa may remove or restrict content that violates these Terms or applicable law.</p>
+
+                            <h3>5.2 Accepting Bookings</h3>
+                            <p>When an artist accepts a booking request, the artist agrees to make reasonable efforts to provide the agreed service at the confirmed date, time, location, and conditions.</p>
+                            <p>Artists should communicate promptly with clients regarding changes, cancellations, delays, or circumstances affecting the booking.</p>
+                            <p>Repeated cancellations, failure to attend confirmed bookings, fraudulent activity, or serious complaints may result in account suspension or termination.</p>
+
+                            <h3>5.3 Artist Payments</h3>
+                            <p>Artists determine their own performance fees unless otherwise agreed with the client.</p>
+                            <p>The artist's performance fee is a separate transaction between the client and the artist.</p>
+                            <p>Performa does not collect, hold, or disburse the artist's performance fee through the Performa payment system.</p>
+                            <p>Artists are responsible for providing clients with accurate payment instructions where payment is to be made directly to the artist.</p>
+                            <p>Artists are responsible for their own taxes, permits, licences, and other legal obligations relating to income earned from their services.</p>
                         </div>
 
                         <div className="sec" id="s6">
@@ -245,129 +264,191 @@ const TermsAndConditions: React.FC = () => {
                                 <div className="sec-num">6</div>
                                 <h2>How Performa Makes Money</h2>
                             </div>
-                            <p>
-                                Performa&apos;s fee is transparently disclosed before any
-                                payment is confirmed. No hidden charges.
-                            </p>
-                            <div className="two-box" style={{ gridTemplateColumns: "1fr" }}>
-                                <div className="box">
-                                    <div className="label">Booking / Service Fee</div>
-                                    <p>
-                                        A fee charged to the client at checkout for using the
-                                        platform to discover, request, and confirm a booking —
-                                        shown clearly before you pay. This is the only payment
-                                        Performa collects; artists are paid directly by
-                                        clients for their performance.
-                                    </p>
-                                </div>
-                            </div>
+                            <p>Performa earns revenue primarily through booking/service fees charged to clients for the use of the platform and related booking services.</p>
+                            <p>The applicable booking/service fee is displayed before the client completes payment.</p>
+                            <p>Performa does not take custody of the artist's performance fee.</p>
+                            <p>Any performance fee paid to an artist is separate from Performa's booking/service fee.</p>
                         </div>
 
                         <div className="sec" id="s7">
                             <div className="sec-header">
                                 <div className="sec-num">7</div>
-                                <h2>Booking Confirmation &amp; Complaints</h2>
+                                <h2>Booking Confirmation</h2>
                             </div>
-                            <div className="flow">
-                                <p>
-                                    Once an artist accepts a request and the client pays the
-                                    booking/service fee, the booking is confirmed. If the
-                                    client believes the artist did not fulfill the agreed
-                                    booking, they may raise a complaint with Performa within
-                                    48 hours of the event date. Performa will investigate and
-                                    make a final decision regarding any refund of the
-                                    booking/service fee, as set out in our{" "}
-                                    <a href="/return-policy" style={{ color: "#e63946" }}>
-                                        Return &amp; Refund Policy
-                                    </a>
-                                    .
-                                </p>
-                            </div>
+                            <p>A booking is considered confirmed when:</p>
+                            <ul>
+                                <li>1. The artist has accepted the booking request; and</li>
+                                <li>2. The applicable Performa booking/service fee has been successfully paid.</li>
+                            </ul>
+                            <p>The client and artist remain responsible for confirming the specific performance arrangements between themselves.</p>
                         </div>
 
                         <div className="sec" id="s8">
                             <div className="sec-header">
                                 <div className="sec-num">8</div>
-                                <h2>Circumvention Policy</h2>
+                                <h2>Cancellations and Refunds</h2>
                             </div>
-                            <div className="warning">
-                                <p>
-                                    ⚠️ Both clients and artists agree not to arrange bookings
-                                    outside of the Performa platform, for the purpose of
-                                    avoiding the booking/service fee, for anyone first
-                                    discovered through Performa. Violating this may result in
-                                    permanent account termination.
-                                </p>
-                            </div>
+                            <p>Cancellations and refunds of Performa's booking/service fee are governed by Performa's Return & Refund Policy.</p>
+                            <p>The Return & Refund Policy applies only to payments made to Performa.</p>
+                            <p>Payments made directly between clients and artists are separate transactions and are not governed by Performa's refund process.</p>
+                            <p>If an artist cancels or fails to fulfill an accepted booking, the client may report the matter to Performa for review.</p>
+                            <p>Performa may review booking records, platform communications, and other relevant evidence when determining eligibility for a refund of the Performa booking/service fee.</p>
                         </div>
 
                         <div className="sec" id="s9">
                             <div className="sec-header">
                                 <div className="sec-num">9</div>
-                                <h2>Prohibited Conduct</h2>
+                                <h2>Complaints and Disputes Between Clients and Artists</h2>
                             </div>
+                            <p>Performa encourages clients and artists to communicate directly and attempt to resolve booking-related issues in good faith.</p>
+                            <p>If a dispute cannot be resolved, either party may contact Performa.</p>
+                            <p>Performa may review:</p>
                             <ul>
-                                <li>Post false, misleading, or fraudulent information</li>
-                                <li>Harass, threaten, or abuse other users on the platform</li>
-                                <li>
-                                    Upload content that is illegal, obscene, or infringes
-                                    intellectual property rights
-                                </li>
-                                <li>
-                                    Attempt to hack, disrupt, or damage the platform or its
-                                    users
-                                </li>
-                                <li>Use the platform for any illegal purpose under Sri Lankan law</li>
+                                <li>Booking information</li>
+                                <li>Messages exchanged through the platform</li>
+                                <li>Cancellation information</li>
+                                <li>Relevant evidence supplied by either party</li>
                             </ul>
+                            <p>Performa may make a determination regarding whether a Performa booking/service fee refund is appropriate under the Return & Refund Policy.</p>
+                            <p>Performa does not determine or guarantee recovery of payments made directly between clients and artists.</p>
                         </div>
 
                         <div className="sec" id="s10">
                             <div className="sec-header">
                                 <div className="sec-num">10</div>
-                                <h2>Disputes Between Clients and Artists</h2>
+                                <h2>Circumvention</h2>
                             </div>
-                            <p>
-                                We encourage both parties to first resolve disputes
-                                directly. If unresolved, contact Performa support and we
-                                will assist in mediating a fair resolution. Performa&apos;s
-                                decision regarding any refund of the booking/service fee is
-                                final.
-                            </p>
+                            <p>Clients and artists must not intentionally move a booking outside Performa for the purpose of avoiding a Performa booking/service fee where the client and artist were first introduced through Performa.</p>
+                            <p>This restriction does not prevent users from communicating or entering into lawful arrangements that are unrelated to avoiding Performa's applicable fees.</p>
+                            <p>Violations may result in account suspension or termination.</p>
                         </div>
 
                         <div className="sec" id="s11">
                             <div className="sec-header">
                                 <div className="sec-num">11</div>
-                                <h2>Limitation of Liability</h2>
+                                <h2>Prohibited Conduct</h2>
                             </div>
-                            <p>
-                                To the fullest extent permitted by Sri Lankan law, Performa
-                                is not liable for any indirect or consequential losses from
-                                your use of the platform, including from performance fee
-                                arrangements made directly between clients and artists. It
-                                is your responsibility to review artist profiles,
-                                portfolios, and reviews before booking.
-                            </p>
+                            <p>Users must not:</p>
+                            <ul>
+                                <li>Provide false or misleading information.</li>
+                                <li>Create fraudulent accounts.</li>
+                                <li>Impersonate another person or business.</li>
+                                <li>Harass, threaten, abuse, or discriminate against another user.</li>
+                                <li>Upload illegal, obscene, defamatory, or infringing content.</li>
+                                <li>Upload content that violates another person's intellectual property rights.</li>
+                                <li>Attempt to gain unauthorized access to Performa systems.</li>
+                                <li>Attempt to interfere with or damage the platform.</li>
+                                <li>Use Performa for fraudulent or unlawful activities.</li>
+                                <li>Attempt to manipulate reviews, ratings, bookings, or payments.</li>
+                                <li>Use the platform to avoid applicable Performa fees.</li>
+                            </ul>
+                            <p>Performa may suspend or terminate accounts involved in prohibited conduct.</p>
                         </div>
 
                         <div className="sec" id="s12">
                             <div className="sec-header">
                                 <div className="sec-num">12</div>
-                                <h2>Governing Law</h2>
+                                <h2>Artist Content and Intellectual Property</h2>
                             </div>
-                            <p>
-                                These Terms are governed by the laws of Sri Lanka. Any
-                                disputes will be subject to the exclusive jurisdiction of
-                                the courts of Sri Lanka.
-                            </p>
+                            <p>Artists retain ownership of content they lawfully upload to Performa.</p>
+                            <p>By uploading content, an artist grants Performa a non-exclusive, worldwide, royalty-free licence to display, reproduce, resize, format, and promote that content as reasonably necessary to operate and market the platform.</p>
+                            <p>Users must not upload content that they do not have the legal right to use.</p>
+                            <p>Performa retains ownership of its website, platform, software, branding, trademarks, logos, text, graphics, and other proprietary materials unless otherwise stated.</p>
                         </div>
 
                         <div className="sec" id="s13">
                             <div className="sec-header">
                                 <div className="sec-num">13</div>
+                                <h2>Availability of the Platform</h2>
+                            </div>
+                            <p>Performa aims to keep the platform available and functioning reliably but does not guarantee uninterrupted or error-free availability.</p>
+                            <p>The platform may occasionally be unavailable because of:</p>
+                            <ul>
+                                <li>Maintenance</li>
+                                <li>Technical problems</li>
+                                <li>Security incidents</li>
+                                <li>Internet or hosting problems</li>
+                                <li>Payment gateway issues</li>
+                                <li>Events outside Performa's reasonable control</li>
+                            </ul>
+                        </div>
+
+                        <div className="sec" id="s14">
+                            <div className="sec-header">
+                                <div className="sec-num">14</div>
+                                <h2>Third-Party Services</h2>
+                            </div>
+                            <p>Performa may use third-party services such as payment gateways, hosting providers, analytics providers, communication services, and other technology providers.</p>
+                            <p>Use of third-party services may be subject to their own terms and privacy policies.</p>
+                            <p>Performa is not responsible for failures caused solely by third-party services outside Performa's reasonable control.</p>
+                        </div>
+
+                        <div className="sec" id="s15">
+                            <div className="sec-header">
+                                <div className="sec-num">15</div>
+                                <h2>Limitation of Liability</h2>
+                            </div>
+                            <p>To the fullest extent permitted by applicable law, Performa is not responsible for indirect, incidental, special, or consequential losses arising from the use of the platform.</p>
+                            <p>Performa does not guarantee:</p>
+                            <ul>
+                                <li>The quality of an artist's performance.</li>
+                                <li>The availability of an artist.</li>
+                                <li>The suitability of an artist for a particular event.</li>
+                                <li>That an artist will meet every expectation of a client.</li>
+                                <li>The outcome of arrangements made directly between clients and artists.</li>
+                            </ul>
+                            <p>Clients should review artist profiles, portfolios, reviews, and booking information before confirming a booking.</p>
+                            <p>Nothing in these Terms excludes or limits liability that cannot lawfully be excluded or limited under applicable law.</p>
+                        </div>
+
+                        <div className="sec" id="s16">
+                            <div className="sec-header">
+                                <div className="sec-num">16</div>
+                                <h2>Indemnity</h2>
+                            </div>
+                            <p>To the extent permitted by applicable law, users agree to be responsible for claims, losses, damages, liabilities, and reasonable expenses arising from:</p>
+                            <ul>
+                                <li>Their violation of these Terms.</li>
+                                <li>Their unlawful use of the platform.</li>
+                                <li>Their infringement of another person's rights.</li>
+                                <li>Their breach of an agreement with another user.</li>
+                            </ul>
+                        </div>
+
+                        <div className="sec" id="s17">
+                            <div className="sec-header">
+                                <div className="sec-num">17</div>
+                                <h2>Privacy</h2>
+                            </div>
+                            <p>Performa collects and processes personal information in accordance with its Privacy Policy.</p>
+                            <p>By using Performa, you acknowledge that your information may be processed for purposes including account management, booking administration, communication, payment processing, security, fraud prevention, customer support, and improvement of the platform.</p>
+                        </div>
+
+                        <div className="sec" id="s18">
+                            <div className="sec-header">
+                                <div className="sec-num">18</div>
+                                <h2>Changes to These Terms</h2>
+                            </div>
+                            <p>Performa may update these Terms from time to time.</p>
+                            <p>When material changes are made, Performa may update the effective date and provide reasonable notice through the platform where appropriate.</p>
+                            <p>Your continued use of Performa after updated Terms become effective constitutes acceptance of the revised Terms, to the extent permitted by applicable law.</p>
+                        </div>
+
+                        <div className="sec" id="s19">
+                            <div className="sec-header">
+                                <div className="sec-num">19</div>
+                                <h2>Governing Law</h2>
+                            </div>
+                            <p>These Terms are governed by the laws of Sri Lanka.</p>
+                            <p>Subject to any mandatory rights or remedies available under applicable law, disputes relating to these Terms or use of Performa shall be subject to the jurisdiction of the courts of Sri Lanka.</p>
+                        </div>
+
+                        <div className="sec" id="s20">
+                            <div className="sec-header">
+                                <div className="sec-num">20</div>
                                 <h2>Contact Us</h2>
                             </div>
-                            <p>Questions about these Terms? Please reach out:</p>
+                            <p>If you have questions about these Terms & Conditions, please contact Performa:</p>
                             <div className="notice" style={{ marginTop: "16px" }}>
                                 <p>
                                     📧 <strong>Email:</strong> infoperforma.lk@gmail.com &nbsp;·&nbsp;
@@ -375,10 +456,8 @@ const TermsAndConditions: React.FC = () => {
                                     Kandy, Sri Lanka
                                 </p>
                             </div>
-                            <p style={{ marginTop: "14px", color: "#999", fontSize: "14px" }}>
-                                Thank you for being part of the Performa community.
-                            </p>
                         </div>
+
                     </div>
                 </div>
 

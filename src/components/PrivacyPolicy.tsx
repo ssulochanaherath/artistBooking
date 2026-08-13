@@ -79,171 +79,278 @@ const PrivacyPolicy: React.FC = () => {
                         Privacy <span>Policy</span>
                     </h1>
                     <p>
-                        Effective Date: [Insert Launch Date] &nbsp;·&nbsp; Last Updated:
-                        [Insert Date]
+                        Effective Date: August 12, 2026
                     </p>
                 </div>
 
                 <div className="layout">
                     <div className="sidebar">
                         <p className="sib-title">Contents</p>
-                        <a href="#s1">1. Who We Are</a>
-                        <a href="#s2">2. Info We Collect</a>
-                        <a href="#s3">3. How We Use It</a>
-                        <a href="#s4">4. How We Share It</a>
-                        <a href="#s5">5. Payments</a>
-                        <a href="#s6">6. Cookies</a>
+                        <a href="#s1">1. Information We Collect</a>
+                        <a href="#s2">2. How We Use Personal Information</a>
+                        <a href="#s3">3. Sharing Personal Information</a>
+                        <a href="#s4">4. Payment Information</a>
+                        <a href="#s5">5. Artist and Client Visibility</a>
+                        <a href="#s6">6. Data Retention</a>
                         <a href="#s7">7. Data Security</a>
                         <a href="#s8">8. Your Rights</a>
-                        <a href="#s9">9. Children</a>
-                        <a href="#s10">10. Changes</a>
-                        <a href="#s11">11. Contact</a>
+                        <a href="#s9">9. Children's Privacy</a>
+                        <a href="#s10">10. International Data Processing</a>
+                        <a href="#s11">11. Third-Party Websites and Services</a>
+                        <a href="#s12">12. Marketing Communications</a>
+                        <a href="#s13">13. Data Breaches and Security Incidents</a>
+                        <a href="#s14">14. Changes to This Privacy Policy</a>
+                        <a href="#s15">15. Contact Us</a>
                     </div>
 
                     <div className="content">
-                        <div className="meta-bar">
-              <span>
-                Platform: <strong>Performa · performa.lk</strong>
-              </span>
-                            <span>
-                Location: <strong>Sri Lanka</strong>
-              </span>
-                            <span>
-                Governed by: <strong>Sri Lankan Law</strong>
-              </span>
+                        <div className="intro" style={{ marginBottom: "40px" }}>
+                          <p style={{ fontSize: "15px", color: "#555", lineHeight: "1.8", marginBottom: "12px" }}>
+                            Performa operates an online platform that connects clients with independent artists and creative
+                            service providers in Sri Lanka.
+                          </p>
+                          <p style={{ fontSize: "15px", color: "#555", lineHeight: "1.8", marginBottom: "12px" }}>
+                            This Privacy Policy explains how Performa collects, uses, stores, shares, and protects personal
+                            information when you use our website, platform, applications, services, or communicate with us.
+                          </p>
+                          <p style={{ fontSize: "15px", color: "#555", lineHeight: "1.8", marginBottom: "12px" }}>
+                            By using Performa, you acknowledge the practices described in this Privacy Policy.
+                          </p>
+                          <p style={{ fontSize: "15px", color: "#555", lineHeight: "1.8", marginBottom: "12px" }}>
+                            Performa aims to handle personal data responsibly and in accordance with applicable Sri
+                            Lankan data protection laws, including the Personal Data Protection Act, No. 9 of 2022, as
+                            amended from time to time. Sri Lanka's Data Protection Authority states that the principal
+                            operational provisions of the PDPA came into operation on March 18, 2025.
+                          </p>
                         </div>
 
                         <div className="sec" id="s1">
                             <div className="sec-header">
                                 <div className="sec-num">1</div>
-                                <h2>Who We Are</h2>
+                                <h2>Information We Collect</h2>
                             </div>
-                            <p>
-                                Performa is an online artist booking platform based in Sri
-                                Lanka. We connect clients with performers and creative
-                                professionals for events and occasions. By using Performa,
-                                you agree to the terms of this Privacy Policy.
-                            </p>
+                            <p>Depending on how you use Performa, we may collect the following categories of information.</p>
+                            
+                            <h3>1.1 Account Information</h3>
+                            <p>When you create an account, we may collect:</p>
+                            <ul>
+                                <li>Full name</li>
+                                <li>Email address</li>
+                                <li>Phone number</li>
+                                <li>Password or authentication information</li>
+                                <li>Account type</li>
+                                <li>Profile information</li>
+                            </ul>
+
+                            <h3>1.2 Artist Information</h3>
+                            <p>If you register as an artist, we may collect:</p>
+                            <ul>
+                                <li>Artist or business name</li>
+                                <li>Profile photograph</li>
+                                <li>Biography</li>
+                                <li>Category and skills</li>
+                                <li>Portfolio information</li>
+                                <li>Photographs and videos</li>
+                                <li>Performance/service information</li>
+                                <li>Availability information</li>
+                                <li>Service areas</li>
+                                <li>Contact information</li>
+                                <li>Performance pricing or fee information</li>
+                                <li>Other information you choose to publish on your artist profile</li>
+                            </ul>
+                            <p>Artists should not upload sensitive personal information that is unnecessary for operating their profile.</p>
+
+                            <h3>1.3 Booking Information</h3>
+                            <p>When you create, request, accept, or manage a booking, we may collect:</p>
+                            <ul>
+                                <li>Client information</li>
+                                <li>Artist information</li>
+                                <li>Event date and time</li>
+                                <li>Event location</li>
+                                <li>Event type</li>
+                                <li>Booking requirements</li>
+                                <li>Messages and communications relating to the booking</li>
+                                <li>Booking status</li>
+                                <li>Cancellation information</li>
+                                <li>Complaint or dispute information</li>
+                            </ul>
+
+                            <h3>1.4 Payment Information</h3>
+                            <p>Payments for Performa's booking/service fee may be processed through third-party payment providers.</p>
+                            <p>Performa may receive information such as:</p>
+                            <ul>
+                                <li>Payment status</li>
+                                <li>Transaction reference</li>
+                                <li>Amount paid</li>
+                                <li>Currency</li>
+                                <li>Date and time of transaction</li>
+                                <li>Payment method information provided by the payment provider</li>
+                            </ul>
+                            <p>Where payment information is processed by a third-party payment gateway, that provider may process payment information under its own privacy policy and security practices.</p>
+                            <p>Performa does not need to store your full card number or card security code to provide its booking services.</p>
+
+                            <h3>1.5 Communications</h3>
+                            <p>If you communicate with Performa or other users through the platform, we may process information contained in those communications for purposes such as:</p>
+                            <ul>
+                                <li>Providing customer support</li>
+                                <li>Managing bookings</li>
+                                <li>Resolving disputes</li>
+                                <li>Preventing fraud and abuse</li>
+                                <li>Maintaining platform security</li>
+                                <li>Enforcing our Terms & Conditions</li>
+                            </ul>
+
+                            <h3>1.6 Technical Information</h3>
+                            <p>When you use Performa, we may automatically collect technical information such as:</p>
+                            <ul>
+                                <li>IP address</li>
+                                <li>Browser type</li>
+                                <li>Device type</li>
+                                <li>Operating system</li>
+                                <li>Approximate location derived from technical information where applicable</li>
+                                <li>Pages visited</li>
+                                <li>Date and time of access</li>
+                                <li>Referring website</li>
+                                <li>Technical logs</li>
+                                <li>Security and diagnostic information</li>
+                            </ul>
+
+                            <h3>1.7 Cookies</h3>
+                            <p>Performa may use cookies and similar technologies to:</p>
+                            <ul>
+                                <li>Keep users signed in</li>
+                                <li>Remember preferences</li>
+                                <li>Maintain security</li>
+                                <li>Understand website usage</li>
+                                <li>Improve website functionality</li>
+                                <li>Analyse traffic and performance</li>
+                            </ul>
+                            <p>You may be able to control cookies through your browser settings.</p>
+                            <p>Disabling certain cookies may affect some platform functionality.</p>
                         </div>
 
                         <div className="sec" id="s2">
                             <div className="sec-header">
                                 <div className="sec-num">2</div>
-                                <h2>Information We Collect</h2>
+                                <h2>How We Use Personal Information</h2>
                             </div>
-                            <h3>For Clients (People who book artists)</h3>
+                            <p>We may use personal information to:</p>
                             <ul>
-                                <li>Full name and email address</li>
-                                <li>Phone number</li>
-                                <li>Event details — date, location, and type of event</li>
-                                <li>
-                                    Payment information (processed securely through our
-                                    payment provider)
-                                </li>
+                                <li>Create and manage user accounts.</li>
+                                <li>Provide and operate Performa's services.</li>
+                                <li>Facilitate booking requests.</li>
+                                <li>Connect clients and artists.</li>
+                                <li>Communicate with users.</li>
+                                <li>Process Performa booking/service fee payments.</li>
+                                <li>Provide customer support.</li>
+                                <li>Process refund requests.</li>
+                                <li>Investigate complaints and disputes.</li>
+                                <li>Prevent fraud, abuse, and unauthorized activity.</li>
+                                <li>Protect the security of the platform.</li>
+                                <li>Improve website functionality and user experience.</li>
+                                <li>Analyse platform usage and performance.</li>
+                                <li>Send important service-related communications.</li>
+                                <li>Comply with applicable laws and legal obligations.</li>
+                                <li>Establish, exercise, or defend legal claims where necessary.</li>
                             </ul>
-                            <h3>For Artists (Performers who register)</h3>
-                            <ul>
-                                <li>Full name or stage name, email address, phone number</li>
-                                <li>Profile photo and portfolio media (photos, videos)</li>
-                                <li>
-                                    Artist category, description, service rates, and
-                                    availability
-                                </li>
-                                <li>Bank account or payment details for receiving payouts</li>
-                                <li>National ID or verification documents if required</li>
-                            </ul>
-                            <h3>Automatically Collected</h3>
-                            <ul>
-                                <li>IP address and device information</li>
-                                <li>Browser type and operating system</li>
-                                <li>Pages visited and time spent on the platform</li>
-                                <li>Cookies and similar tracking technologies</li>
-                            </ul>
+                            <p>We will not use personal information for purposes materially incompatible with the purpose for which it was collected unless permitted or required by applicable law.</p>
                         </div>
 
                         <div className="sec" id="s3">
                             <div className="sec-header">
                                 <div className="sec-num">3</div>
-                                <h2>How We Use Your Information</h2>
+                                <h2>Sharing Personal Information</h2>
                             </div>
+                            <p>We may share relevant personal information with:</p>
+                            
+                            <h3>3.1 Other Users</h3>
+                            <p>When necessary to facilitate a booking, certain information may be shared between the client and artist.</p>
+                            <p>For example, a confirmed booking may require the parties to know information such as:</p>
                             <ul>
-                                <li>Create and manage your account</li>
-                                <li>Process bookings and payments between clients and artists</li>
-                                <li>Send booking confirmations, reminders, and notifications</li>
-                                <li>Display artist profiles to potential clients</li>
-                                <li>Verify artist identities and ensure platform safety</li>
-                                <li>Improve our platform and user experience</li>
-                                <li>Resolve disputes between clients and artists</li>
-                                <li>Comply with legal obligations under Sri Lankan law</li>
-                                <li>Send platform updates or news — you can opt out at any time</li>
+                                <li>Name</li>
+                                <li>Contact information</li>
+                                <li>Event details</li>
+                                <li>Location</li>
+                                <li>Booking requirements</li>
+                            </ul>
+                            <p>We only intend to share information reasonably necessary for the booking or related service.</p>
+
+                            <h3>3.2 Service Providers</h3>
+                            <p>We may use third-party providers for:</p>
+                            <ul>
+                                <li>Payment processing</li>
+                                <li>Website hosting</li>
+                                <li>Cloud storage</li>
+                                <li>Email delivery</li>
+                                <li>SMS or communication services</li>
+                                <li>Analytics</li>
+                                <li>Security</li>
+                                <li>Technical support</li>
+                            </ul>
+                            <p>These providers may process personal information on our behalf or independently according to their respective agreements and privacy policies.</p>
+
+                            <h3>3.3 Legal and Regulatory Requirements</h3>
+                            <p>We may disclose information where reasonably necessary to:</p>
+                            <ul>
+                                <li>Comply with applicable law.</li>
+                                <li>Respond to lawful requests from authorities.</li>
+                                <li>Protect users or the public.</li>
+                                <li>Investigate suspected fraud or unlawful activity.</li>
+                                <li>Protect Performa's legal rights.</li>
+                                <li>Enforce our Terms & Conditions.</li>
                             </ul>
                         </div>
 
                         <div className="sec" id="s4">
                             <div className="sec-header">
                                 <div className="sec-num">4</div>
-                                <h2>How We Share Your Information</h2>
+                                <h2>Payment Information</h2>
                             </div>
-                            <div className="notice">
-                                <p>
-                                    <strong>
-                                        We do not sell your personal information to third
-                                        parties.
-                                    </strong>
-                                </p>
-                            </div>
-                            <ul>
-                                <li>
-                                    <strong>Between Clients and Artists:</strong> When a
-                                    booking is made, relevant contact and event details are
-                                    shared to complete the booking.
-                                </li>
-                                <li>
-                                    <strong>Payment Processors:</strong> We share payment
-                                    information with secure third-party providers to process
-                                    transactions.
-                                </li>
-                                <li>
-                                    <strong>Service Providers:</strong> Trusted vendors who
-                                    help us operate — hosting, email, analytics — bound by
-                                    confidentiality obligations.
-                                </li>
-                                <li>
-                                    <strong>Legal Requirements:</strong> If required by Sri
-                                    Lankan law, court order, or government authority.
-                                </li>
-                                <li>
-                                    <strong>Safety:</strong> To prevent fraud, abuse, or harm
-                                    to users or the public.
-                                </li>
-                            </ul>
+                            <p>Performa uses third-party payment providers to process payments for Performa's booking/service fees.</p>
+                            <p>When you make a payment, you may be redirected to or interact with the payment provider's secure payment environment.</p>
+                            <p>The payment provider may collect and process payment information under its own terms and privacy policy.</p>
+                            <p>Performa may retain transaction records necessary for accounting, customer support, refunds, fraud prevention, and legal compliance.</p>
                         </div>
 
                         <div className="sec" id="s5">
                             <div className="sec-header">
                                 <div className="sec-num">5</div>
-                                <h2>Payments & Financial Information</h2>
+                                <h2>Artist and Client Visibility</h2>
                             </div>
-                            <p>
-                                All payments on Performa are processed through secure,
-                                third-party payment gateways. We do not store your full
-                                credit or debit card details on our servers. Please refer to
-                                your payment provider&apos;s privacy policy for how they
-                                handle your financial data.
-                            </p>
+                            <p>Performa is a booking platform. Some information is intentionally made visible to other users to allow them to discover and book artists.</p>
+                            <p>Artist profile information may be publicly visible, including:</p>
+                            <ul>
+                                <li>Artist name</li>
+                                <li>Profile photograph</li>
+                                <li>Biography</li>
+                                <li>Portfolio</li>
+                                <li>Services</li>
+                                <li>Categories</li>
+                                <li>Reviews</li>
+                                <li>Service area</li>
+                                <li>Other information intentionally published by the artist</li>
+                            </ul>
+                            <p>Users should avoid publishing private or sensitive information in public profile areas.</p>
                         </div>
 
                         <div className="sec" id="s6">
                             <div className="sec-header">
                                 <div className="sec-num">6</div>
-                                <h2>Cookies</h2>
+                                <h2>Data Retention</h2>
                             </div>
-                            <p>
-                                We use cookies to keep you logged in, remember your
-                                preferences, and analyze platform traffic. You can control
-                                cookies through your browser settings. Disabling cookies may
-                                affect some features of the platform.
-                            </p>
+                            <p>We retain personal information only for as long as reasonably necessary for the purposes described in this Privacy Policy, including:</p>
+                            <ul>
+                                <li>Providing services</li>
+                                <li>Maintaining accounts</li>
+                                <li>Managing bookings</li>
+                                <li>Handling refunds and disputes</li>
+                                <li>Preventing fraud</li>
+                                <li>Maintaining business records</li>
+                                <li>Complying with legal obligations</li>
+                                <li>Establishing or defending legal claims</li>
+                            </ul>
+                            <p>Retention periods may vary depending on the type of information and the purpose for which it is processed.</p>
+                            <p>When information is no longer reasonably required, we may delete, anonymize, or securely dispose of it, subject to applicable legal and operational requirements.</p>
                         </div>
 
                         <div className="sec" id="s7">
@@ -251,13 +358,18 @@ const PrivacyPolicy: React.FC = () => {
                                 <div className="sec-num">7</div>
                                 <h2>Data Security</h2>
                             </div>
-                            <p>
-                                Your data is stored on secure servers. We take reasonable
-                                technical and organizational measures to protect your
-                                personal information from unauthorized access, loss, or
-                                misuse. Please use a strong password and keep your login
-                                credentials confidential.
-                            </p>
+                            <p>Performa takes reasonable technical and organizational measures designed to protect personal information against unauthorized access, loss, misuse, alteration, disclosure, or destruction.</p>
+                            <p>Security measures may include:</p>
+                            <ul>
+                                <li>Access controls</li>
+                                <li>Authentication mechanisms</li>
+                                <li>Secure communications</li>
+                                <li>System monitoring</li>
+                                <li>Appropriate hosting and infrastructure security</li>
+                                <li>Restricted access to personal information</li>
+                            </ul>
+                            <p>However, no online system can be guaranteed to be completely secure.</p>
+                            <p>Users are responsible for keeping their account credentials confidential.</p>
                         </div>
 
                         <div className="sec" id="s8">
@@ -265,64 +377,102 @@ const PrivacyPolicy: React.FC = () => {
                                 <div className="sec-num">8</div>
                                 <h2>Your Rights</h2>
                             </div>
+                            <p>Subject to applicable law and any applicable limitations or exceptions, individuals may have rights relating to their personal information, including rights concerning:</p>
                             <ul>
-                                <li>Access the personal information we hold about you</li>
-                                <li>Correct inaccurate or outdated information</li>
-                                <li>Request deletion of your personal data</li>
-                                <li>
-                                    Withdraw consent for marketing communications at any time
-                                </li>
+                                <li>Access to personal information.</li>
+                                <li>Correction or updating of inaccurate information.</li>
+                                <li>Deletion or erasure in applicable circumstances.</li>
+                                <li>Restriction or objection to certain processing.</li>
+                                <li>Withdrawal of consent where processing is based on consent.</li>
+                                <li>Other rights provided under applicable data protection law.</li>
                             </ul>
-                            <p>
-                                To exercise any of these rights, contact us at the email
-                                address below.
-                            </p>
+                            <p>Requests can be made by contacting Performa using the contact information below.</p>
+                            <p>We may need to verify your identity before processing certain requests.</p>
+                            <p>The availability and scope of these rights depend on applicable law.</p>
                         </div>
 
                         <div className="sec" id="s9">
                             <div className="sec-header">
                                 <div className="sec-num">9</div>
-                                <h2>Children&apos;s Privacy</h2>
+                                <h2>Children's Privacy</h2>
                             </div>
-                            <p>
-                                Performa is not intended for use by persons under the age of
-                                18. We do not knowingly collect personal information from
-                                children. If we discover that a child under 18 has provided
-                                us with personal information, we will delete it promptly.
-                            </p>
+                            <p>Performa is intended for users aged 18 and above.</p>
+                            <p>We do not knowingly provide account registration or booking services to children under 18.</p>
+                            <p>If we become aware that we have collected personal information from a person under 18 without an appropriate legal basis, we may take reasonable steps to delete the information.</p>
                         </div>
 
                         <div className="sec" id="s10">
                             <div className="sec-header">
                                 <div className="sec-num">10</div>
-                                <h2>Changes to This Policy</h2>
+                                <h2>International Data Processing</h2>
                             </div>
-                            <p>
-                                We may update this Privacy Policy from time to time. When we
-                                do, we will update the date at the top of this page.
-                                Continued use of the platform after changes take effect
-                                means you accept the updated policy.
-                            </p>
+                            <p>Some of our third-party service providers may process information outside Sri Lanka.</p>
+                            <p>Where personal information is transferred or processed outside Sri Lanka, Performa will take steps required by applicable law to ensure appropriate safeguards are applied.</p>
                         </div>
 
                         <div className="sec" id="s11">
                             <div className="sec-header">
                                 <div className="sec-num">11</div>
+                                <h2>Third-Party Websites and Services</h2>
+                            </div>
+                            <p>Performa may contain links to third-party websites or services.</p>
+                            <p>These third parties operate independently from Performa and may have their own privacy policies.</p>
+                            <p>Performa is not responsible for the privacy practices of third-party websites or services that are not controlled by Performa.</p>
+                        </div>
+
+                        <div className="sec" id="s12">
+                            <div className="sec-header">
+                                <div className="sec-num">12</div>
+                                <h2>Marketing Communications</h2>
+                            </div>
+                            <p>We may send service-related communications such as:</p>
+                            <ul>
+                                <li>Booking confirmations</li>
+                                <li>Booking updates</li>
+                                <li>Account notifications</li>
+                                <li>Security alerts</li>
+                                <li>Payment notifications</li>
+                                <li>Refund notifications</li>
+                            </ul>
+                            <p>Where permitted by applicable law, we may also send promotional communications.</p>
+                            <p>You may opt out of promotional communications by using the unsubscribe mechanism provided in the communication or by contacting us.</p>
+                            <p>Opting out of marketing communications will not prevent us from sending essential service or transactional messages.</p>
+                        </div>
+
+                        <div className="sec" id="s13">
+                            <div className="sec-header">
+                                <div className="sec-num">13</div>
+                                <h2>Data Breaches and Security Incidents</h2>
+                            </div>
+                            <p>If Performa becomes aware of a personal data breach that requires notification under applicable law, we will take appropriate steps to investigate, contain, and respond to the incident and make any required notifications.</p>
+                        </div>
+
+                        <div className="sec" id="s14">
+                            <div className="sec-header">
+                                <div className="sec-num">14</div>
+                                <h2>Changes to This Privacy Policy</h2>
+                            </div>
+                            <p>We may update this Privacy Policy from time to time.</p>
+                            <p>When changes are made, we will update the effective date at the beginning of this policy.</p>
+                            <p>Where required by applicable law, we will provide additional notice or obtain consent for material changes.</p>
+                        </div>
+
+                        <div className="sec" id="s15">
+                            <div className="sec-header">
+                                <div className="sec-num">15</div>
                                 <h2>Contact Us</h2>
                             </div>
-                            <p>
-                                If you have questions about this Privacy Policy or want to
-                                make a data request:
-                            </p>
+                            <p>If you have questions about this Privacy Policy or wish to make a privacy-related request, contact:</p>
                             <div className="info-box" style={{ marginTop: "16px" }}>
                                 <p>
-                                    📧 <strong>Email:</strong> infoperforma.lk@gmail.com &nbsp;·&nbsp;
-                                    📞 <strong>Phone:</strong> +94 70 403 5236 &nbsp;·&nbsp; 📍
-                                    Kandy, Sri Lanka
+                                    <strong>Performa</strong><br/>
+                                    📧 <strong>Email:</strong> infoperforma.lk@gmail.com<br/>
+                                    📞 <strong>Phone:</strong> +94 70 403 5236<br/>
+                                    📍 <strong>Location:</strong> Kandy, Sri Lanka
                                 </p>
                             </div>
-                            <p style={{ marginTop: "14px", color: "#999", fontSize: "14px" }}>
-                                This Privacy Policy is governed by the laws of Sri Lanka.
+                            <p style={{ marginTop: "14px", color: "#555", fontSize: "14px" }}>
+                                When contacting us about personal data, please describe your request clearly so that we can respond appropriately.
                             </p>
                         </div>
                     </div>
